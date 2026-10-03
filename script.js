@@ -39,6 +39,15 @@
     document.head.appendChild(og);
   }
 
+  /* ---- Keep anchor links clear of the sticky header ---- */
+  var header = document.querySelector(".site-header");
+  function setHeaderHeight() {
+    if (header) document.documentElement.style.setProperty("--header-h", header.offsetHeight + "px");
+  }
+  setHeaderHeight();
+  window.addEventListener("resize", setHeaderHeight);
+  window.addEventListener("load", setHeaderHeight);
+
   /* ---- Mobile menu ---- */
   var toggle = document.querySelector(".menu-toggle");
   var nav = document.getElementById("nav");
