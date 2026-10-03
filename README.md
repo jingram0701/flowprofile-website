@@ -173,15 +173,15 @@ If you want to check a change before it goes live, make the edit on a *branch*: 
 
 ## 7. Adding your own project photos
 
-The Projects section shows six photos from `images/projects/`, named `project-1.jpg` to `project-6.jpg`. Replace the placeholder files with your own, keeping the same names, and you don't need to change any code.
+The Projects section shows nine photos from `images/projects/`, named `project-1.jpg` to `project-9.jpg`. Replace the placeholder files with your own, keeping the same names, and you don't need to change any code.
 
-1. Pick six landscape photos. Resize them to about **1600 × 1200 px** and save as JPG. Big phone photos (4000+ px, 5 MB) make the page slow; [squoosh.app](https://squoosh.app) is a free tool that resizes and compresses in the browser.
-2. Rename them `project-1.jpg` … `project-6.jpg`.
+1. Pick nine landscape photos. Resize them to about **1600 × 1200 px** and save as JPG. Big phone photos (4000+ px, 5 MB) make the page slow; [squoosh.app](https://squoosh.app) is a free tool that resizes and compresses in the browser.
+2. Rename them `project-1.jpg` … `project-9.jpg`.
 3. On GitHub, open the `images` folder, then `projects`.
-4. Click **Add file → Upload files**, drag the six photos in, and commit. GitHub replaces the old files because the names match.
+4. Click **Add file → Upload files**, drag the photos in, and commit. GitHub replaces the old files because the names match.
 5. Open `index.html`, find the Projects section, and update each `<figcaption>` to describe the photo. Update the `alt="…"` text too (it's read out to screen readers and used by Google).
 
-Want more or fewer than six? Copy or delete a whole `<figure> … </figure>` block in `index.html`.
+Want more or fewer than nine? Copy or delete a whole `<figure> … </figure>` block in `index.html`.
 
 ---
 
