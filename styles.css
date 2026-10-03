@@ -79,8 +79,10 @@ h3 { font-size: 1.5rem; font-weight: 400; margin-bottom: 0.5rem; }
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--line);
 }
-.header-row { display: flex; align-items: center; justify-content: space-between; gap: 2rem; min-height: 84px; }
-.brand img { width: 214px; height: auto; }
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 2rem; min-height: 104px; padding-top: 1.25rem; padding-bottom: .75rem; }
+.brand { display: block; }
+.brand img { width: 320px; height: auto; }
+@media (max-width: 480px) { .brand img { width: 240px; } }
 .nav { display: flex; align-items: center; gap: 1.75rem; }
 .nav a { text-decoration: none; font-size: 1rem; }
 .nav a:not(.btn):hover { text-decoration: underline; }
@@ -213,7 +215,7 @@ h3 { font-size: 1.5rem; font-weight: 400; margin-bottom: 0.5rem; }
 /* ---------- Footer ---------- */
 .site-footer { background: var(--charcoal); color: rgba(255,255,255,.72); border-top: 1px solid rgba(255,255,255,.12); padding-block: 3rem 2rem; font-size: .95rem; }
 .footer-grid { display: grid; grid-template-columns: auto 1fr auto; gap: 2rem 3rem; align-items: end; }
-.footer-logo { width: 140px; }
+.footer-logo { width: 240px; }
 .footer-meta p { margin: 0 0 .25rem; }
 .footer-meta p:first-child { color: var(--white); font-size: 1.05rem; }
 .footer-social { margin-top: .75rem !important; display: flex; gap: 1.25rem; }
